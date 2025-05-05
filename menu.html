@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew - Menu</title>
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/menu.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Coffes:
+        Espresso
+        Double espresso
+        Americano
+        Machiatto
+        Cappuccino
+        White coffe
+        Affogato
+        Ice coffe
+        Irish coffe
+
+    -->
+
+    <h1>Menu options:</h1>
+
+    <section id="menuSection">
+        <div class="coffeCard">
+            <img src="assets/espresso.jpg" alt="espresso">
+            <h2>Espresso</h2>
+        </div>
+        <div class="coffeCard">
+            <img src="assets/double-espresso.webp" alt="double-espresso">
+            <h2>Double Espresso</h2>
+        </div>
+        <div class="coffeCard">
+            <img src="assets/americano.jpeg" alt="americano">
+            <h2>Americano</h2>
+        </div>
+        <div class="coffeCard">
+            <img src="assets/macchiato.webp" alt="macchiato">
+            <h2>Macchiato</h2>
+        </div>
+        <div class="coffeCard">
+            <img src="assets/cappuccino.jpg" alt="cappuccino">
+            <h2>Cappuccino</h2>
+        </div>
+        <div class="coffeCard">
+            <img src="assets/white-coffee.jpg" alt="white-coffe">
+            <h2>White Coffe</h2>
+        </div>
+        <div class="coffeCard">
+            <img src="assets/affogato.webp" alt="affogato">
+            <h2>Affogato</h2>
+        </div>
+        <div class="coffeCard">
+            <img src="assets/ice-coffee.jpg" alt="ice-coffe">
+            <h2>Ice Coffee</h2>
+        </div>
+        <div class="coffeCard">
+            <img src="assets/irish-coffee.jpg" alt="irish-coffee">
+            <h2>Irish Coffee</h2>
+        </div>
+    </section>
+
+    <section id="yourSuggestion">
+        <h2>Your Suggetsions:</h2>
+        <p class="textSection">Write something you would like to improve or add to our cafe and get a chance to see it
+            come to life. Everything from the look of the cafe down to the menu options. All ideas are valid.</p>
+
+        <form>
+            <label for="formName">Name:</label>
+            <input type="text" id="formName">
+            <br>
+
+            <label for="formSurname">Surname:</label>
+            <input type="text" id="formSurname">
+            <br>
+
+            <label for="formEmail">Email:</label>
+            <input type="text" id="formEmail">
+            <br>
+
+            <label for="formSuggestion">Your suggestion:</label>
+            <br>
+            <textarea id="formSuggestion" rows="10" cols="40"></textarea>
+        </form>
+    </section>
+
+    <footer>
+        <div id="openHours">
+            <h3>Open Hours</h3>
+            <p>MON-FRI: 7:00 - 20:00</p>
+            <p>SAT: 9:00 - 19:00</p>
+            <p>SUN: 9:00 - 17:00</p>
+        </div>
+        <div id="contacts">
+            <h3>Contacts</h3>
+            <p>PHONE: +3453454345</p>
+            <p>MAIL: brew@gmail.com</p>
+            <p>FACEBOOK: @brew.coffe</p>
+        </div>
+    </footer>
+</body>
+
+</html>

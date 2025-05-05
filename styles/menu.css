@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#menuSection {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+    background-color: #725446;
+}
+
+.coffeCard {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+    border: none;
+    border-radius: 20px;
+}
+
+.coffeCard:hover {
+    transform: scale(1.01);
+    transition-duration: 0.3s;
+}
+
+.coffeCard>img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.coffeCard>h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+    margin: 10px 0;
+}
+
+/* FROM -----------------------------------------*/
+form {
+    background-color: #725446;
+    color: #FFECD1;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    max-width: 500px;
+    position: center;
+}
+
+label {
+    font-size: 20px;
+}
