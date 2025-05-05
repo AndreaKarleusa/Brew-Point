@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+
+}
+
+/* BENTO -------------------------------------------*/
+#bentoSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#bentoText>p {
+    margin-bottom: 15px;
+}
+
+#bento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    margin-inline: auto;
+    width: 70%;
+    gap: 10px
+}
+
+#bento>img {
+    width: 100%;
+    object-fit: cover;
+    border: none;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+}
+
+#bento>.span2Rows {
+    grid-row: 1 / 3;
+    grid-column: 2 / 2;
+}
+
+/* CONTACTS -------------------------------------------*/
+#contactUs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+/* CONTACT FORM ------------------------------------------*/
+#ourContacts>p {
+    margin-bottom: 15px;
+}
+
+#sendAMessage>form>label {
+    font-size: 20px;
+}
+
+#sendAMessage>form>input {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 1%;
+}
+
+#sendAMessage>form>textarea {
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 1%;
+}
+
+#sendAMessage>form>button {
+    padding: 0.5rem 2rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: white;
+}
+
+/* MAP ----------------------------------------------*/
+#mapSection>iframe {
+    width: 100%;
+}
