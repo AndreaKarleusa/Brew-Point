@@ -1,14 +1,14 @@
 #banner {
     position: relative;
-    background: 
-        linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.4)),
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
         url("../assets/landing-img.jpg") center/cover;
-        
+
     width: 100%;
     height: 600px;
 }
 
-#banner > h1{
+#banner>h1 {
     color: white;
     letter-spacing: 2px;
     font-size: 70px;
@@ -36,15 +36,25 @@
 
 /* TESTIMONIALS -----------------------------------------------------------*/
 
-#testimonials{
+@keyframes backAndForth {
+    50% {
+        transform: rotateZ(-5deg);
+    }
+
+    75% {
+        transform: rotateZ(5deg);
+    }
+}
+
+#testimonials {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
-.testimonialCard{
-    background-color: #001524;
+.testimonialCard {
+    background-color: gray;
     color: white;
     width: 30%;
     display: flex;
@@ -52,22 +62,29 @@
     justify-content: center;
     align-items: center;
     border: none;
-    border-radius: 15px;
-    padding: 15px;
+    border-radius: 20px;
+    padding: 20px 15px;
 }
 
-.testimonialPerson{
+.testimonialCard:hover {
+    background-color: darkslategray;
+    transition-duration: 1s;
+    animation-name: backAndForth;
+    animation-duration: 1s;
+}
+
+.testimonialPerson {
     width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     margin-bottom: 15%;
 }
 
-.testimonialImg{
+.testimonialImg {
     width: 20%;
     aspect-ratio: 1 / 1;
     border: none;
     border-radius: 50%;
     background-color: white;
+    margin-right: 5%;
 }
