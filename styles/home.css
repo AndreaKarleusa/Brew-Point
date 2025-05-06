@@ -9,7 +9,7 @@
 }
 
 #banner>h1 {
-    color: white;
+    color: #FAF7F0;
     letter-spacing: 2px;
     font-size: 70px;
     position: absolute;
@@ -21,7 +21,8 @@
 #whoWeAre {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 2rem;
+    gap: 3rem;
+    color: #4A4947;
 }
 
 #whoWeAre>.textSection {
@@ -31,7 +32,9 @@
 #whatWeOffer {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 2rem;
+    gap: 3rem;
+    background: #B17457;
+    color: #FAF7F0;
 }
 
 #whoWeAre,
@@ -51,6 +54,10 @@
     }
 }
 
+#testimonialsSection {
+    color: #4A4947;
+}
+
 #testimonials {
     display: flex;
     flex-direction: row;
@@ -59,7 +66,7 @@
 }
 
 .testimonialCard {
-    background-color: gray;
+    background-color: #4A4947;
     color: white;
     width: 30%;
     display: flex;
@@ -73,7 +80,7 @@
 }
 
 .testimonialCard:hover {
-    background-color: darkslategray;
+    background-color: #B17457;
     transition-duration: 0.5s;
     animation-name: backAndForth;
     animation-duration: 0.5s;

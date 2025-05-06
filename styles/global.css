@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #D8D2C2;
+}
+
 /* HEADER -------------------------------------*/
 
 
@@ -17,6 +21,7 @@ header {
     width: 100%;
     padding: 25px 4rem;
     box-shadow: grey 0px 0px 10px;
+    background-color: #854836;
 }
 
 header>nav>ul {
@@ -32,10 +37,13 @@ header>nav>ul {
 a {
     color: #001524;
     text-decoration: none;
+    color: #D8D2C2;
 }
 
 a:hover {
+    color: #FAF7F0;
     text-decoration: underline;
+    transition-duration: 0.3s;
 }
 
 /* OTHER ELEMENTS -----------------------------------------*/
@@ -103,8 +111,8 @@ hr {
 /* FOOTER -------------------------------------*/
 footer {
     padding: 2rem 0rem;
-    color: white;
-    background-color: gray;
+    color: #D8D2C2;
+    background-color: #001524;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
