@@ -86,6 +86,12 @@
     animation-duration: 0.5s;
 }
 
+.testimonialCard>p {
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
 .testimonialPerson {
     width: 100%;
     display: flex;
