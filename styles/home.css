@@ -2,7 +2,7 @@
     position: relative;
     background:
         linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
-        url("../assets/landing-img.jpg") center/cover;
+        url("../assets/photos/landing-img.jpg") center/cover;
 
     width: 100%;
     height: 600px;
@@ -100,4 +100,19 @@
     border-radius: 50%;
     background-color: white;
     margin-right: 5%;
+}
+
+#oldMan {
+    background: url("../assets/portraits/old-man.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+#youngWoman {
+    background: url("../assets/portraits/young-woman.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+#youngBoy {
+    background: url("../assets/portraits/young-boy.webp") center center no-repeat;
+    background-size: cover;
 }
