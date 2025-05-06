@@ -42,7 +42,7 @@ a:hover {
 
 section {
     width: 100%;
-    padding: 5% 5%;
+    padding: 5% 10%;
 }
 
 .textSection {
@@ -58,6 +58,7 @@ section {
     width: 100%;
     border: none;
     border-radius: 10px;
+    box-shadow: gray 0px 5px 10px;
 }
 
 h2 {
@@ -71,8 +72,32 @@ p {
     line-height: 1.2;
 }
 
+label {
+    font-size: 20px;
+}
+
 textarea {
     resize: none;
+    border: none;
+    border-radius: 5px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    margin: 5px 0px;
+    box-shadow: 0 5px 5px -5px grey;
+    padding: 5px 20px;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 20px;
+    box-shadow: gray 0px 1px 5px;
+    padding: 5px 5px;
 }
 
 /* FOOTER -------------------------------------*/
