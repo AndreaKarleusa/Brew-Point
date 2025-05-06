@@ -3,6 +3,7 @@ h1 {
     font-size: 40px;
     margin-top: 50px;
     margin-bottom: 15px;
+    color: #4A4947;
 }
 
 #menuSection {
@@ -22,15 +23,16 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #D8D2C2;
     border: none;
     border-radius: 20px;
-    box-shadow: gray 0px 0px 10px;
+    box-shadow: #4A4947 0px 0px 10px;
 }
 
 .coffeCard:hover {
     transform: scale(1.01);
-    box-shadow: gray 0px 5px 15px;
+    box-shadow: #4A4947 0px 5px 15px;
+    background-color: #FAF7F0;
     transition-duration: 0.3s;
 }
 
@@ -47,6 +49,7 @@ h1 {
     font-size: 25px;
     margin-bottom: 0;
     margin: 10px 0;
+    color: #4A4947;
 }
 
 /* FORM -----------------------------------------*/
@@ -57,4 +60,38 @@ form {
     max-width: 500px;
     position: center;
     margin-inline: auto;
+}
+
+form>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form>div>button {
+    padding: 0.5rem 2rem;
+    font-size: 22px;
+    margin-top: 1rem;
+    border: 2px solid #FAF7F0;
+    border-radius: 5px;
+    background-color: #D8D2C2;
+    color: #FAF7F0;
+}
+
+@keyframes backAndForth {
+    50% {
+        transform: rotateZ(-2deg);
+    }
+
+    75% {
+        transform: rotateZ(2deg);
+    }
+}
+
+form>div>button:hover {
+    border: none;
+    background-color: #B17457;
+    transition-duration: 0.5s;
+    animation-name: backAndForth;
+    animation-duration: 0.5s;
 }

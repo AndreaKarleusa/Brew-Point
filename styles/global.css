@@ -20,7 +20,7 @@ header {
     align-items: center;
     width: 100%;
     padding: 25px 4rem;
-    box-shadow: grey 0px 0px 10px;
+    box-shadow: #4A4947 0px 0px 10px;
     background-color: #854836;
 }
 
@@ -92,20 +92,25 @@ input {
     border-radius: 3px;
     font-size: 20px;
     margin: 5px 0px;
-    box-shadow: 0 5px 5px -5px grey;
+    box-shadow: 0 5px 5px -5px #4A4947;
     padding: 5px 10px;
+    background-color: #FAF7F0;
 }
 
 textarea {
+    background-color: #FAF7F0;
     width: 100%;
     margin-top: 5px;
     font-size: 20px;
-    box-shadow: gray 0px 1px 5px;
+    box-shadow: #4A4947 0px 1px 5px;
     padding: 5px 5px;
 }
 
 hr {
     margin: 0% 30%;
+    background-color: #4A4947;
+    border: none;
+    height: 1px;
 }
 
 /* FOOTER -------------------------------------*/
