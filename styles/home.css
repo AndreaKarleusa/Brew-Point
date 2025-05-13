@@ -1,11 +1,17 @@
 #banner {
     position: relative;
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.4)),
-        url("../assets/photos/landing-img.jpg") center/cover;
-
+    background: url("../assets/photos/landing-img.jpg") center/cover;
     width: 100%;
     height: 600px;
+}
+
+#overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
 }
 
 #banner>h1 {
@@ -69,13 +75,14 @@
     background-color: #4A4947;
     color: white;
     width: 30%;
+    aspect-ratio: 3 / 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border: none;
     border-radius: 20px;
-    padding: 20px 15px;
+    padding: 5px 20px;
     box-shadow: gray 0px 5px 10px;
 }
 
