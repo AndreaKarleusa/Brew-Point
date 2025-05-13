@@ -35,12 +35,23 @@
     max-width: 800px;
 }
 
+#whoWeAre>.imgSection>img:hover {
+    transform: rotateZ(0.5deg);
+    transition-duration: 0.5s;
+}
+
+
 #whatWeOffer {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 3rem;
     background: #B17457;
     color: #FAF7F0;
+}
+
+#whatWeOffer>.imgSection>img:hover {
+    transform: rotateZ(-0.5deg);
+    transition-duration: 0.5s;
 }
 
 #whoWeAre,
